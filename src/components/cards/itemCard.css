@@ -1,0 +1,51 @@
+.cardWrapper {
+  margin-top: 5px;
+}
+
+.itemCardImg {
+  width: 30vw;
+  height: 30vw;
+  min-width: 50;
+  min-height: 50;
+}
+
+.itemInfo {
+  justify-content: left;
+  padding-left: 1vw;
+  width: 100vw;
+}
+
+.itemTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50vw;
+}
+
+.itemDesc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50vw;
+}
+
+.priceField {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+
+.cornerWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  width: 95%;
+  height: 80%;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.numField {
+  grid-area: d;
+}

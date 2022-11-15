@@ -1,0 +1,29 @@
+.cartList {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.totalBox {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 28%);
+  width: 90%;
+  grid-template-areas: "a b c";
+  align-content: space-between;
+  background-color: #efd89c;
+}
+
+#totalHeader {
+  grid-area: a;
+  background-color: #d8a107;
+  align-self: center;
+}
+
+#totalAmount {
+  grid-area: c;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  flex-direction: reverse;
+}

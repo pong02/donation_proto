@@ -1,0 +1,103 @@
+#text-8 {
+  border-style: 0px solid;
+  border-color: transparent;
+}
+
+#quicklink {
+  line-height: 2;
+}
+
+.clearDiv {
+  clear: both;
+}
+#social_links_widget-3 {
+  padding: 0px;
+  margin: 0px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+#social_links-widget-4 {
+  border-style: 0px solid;
+  border-color: transparent;
+}
+
+#instagram,
+#linkedin,
+#facebook {
+  font-size: 16px;
+  color: #bebdbd;
+}
+
+#paypal {
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 15px;
+  color: #e9a825;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+#text-13 {
+  padding: 0px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+#text-14 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+#contact_info-widget-2 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.fusion-copyright-notice {
+  padding-bottom: 0px;
+}
+
+#copyrightFoot {
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.fusion-row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#topFooter {
+  background-color: #305c8c;
+}
+
+#topFooter h4 {
+  color: white;
+}
+
+#topFooter p {
+  color: white;
+}
+
+#topFooter a {
+  color: white;
+  text-decoration: none;
+}
+
+#bottomFooter span {
+  color: rgb(80, 80, 80);
+}
+
+#bottomFooter a {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
