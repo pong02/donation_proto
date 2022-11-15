@@ -10,3 +10,4 @@ A simple react demo app, routes, classes, components
 - Passing variables into routes navigation
 - React components
 - Basic classes
+- Param inputs on function (components?)
