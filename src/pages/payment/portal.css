@@ -1,0 +1,8 @@
+.providersBox {
+  margin: auto;
+  padding: 10px;
+}
+
+.providerEntry:hover {
+  background-color: lightblue;
+}

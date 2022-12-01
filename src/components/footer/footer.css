@@ -101,3 +101,21 @@
   color: rgb(80, 80, 80);
   text-decoration: none;
 }
+
+.footerSectionBox {
+  margin: 10px 0;
+}
+
+/* small screen dont inline */
+@media only screen and (min-width: 660px) {
+  .footerSectionBox {
+    width: 33%;
+    display: inline-block;
+    margin: 10px 0;
+    vertical-align: middle;
+  }
+
+  .contact-info-container p {
+    margin: 13px;
+  }
+}

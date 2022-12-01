@@ -1,0 +1,10 @@
+#vendorInterfaceBox {
+  border-width: 5px;
+  border-style: solid;
+  background-color: aquamarine;
+  border-color: black;
+  height: 80vh;
+  width: 50vw;
+  margin: auto;
+  padding: 10px;
+}

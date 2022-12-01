@@ -1,4 +1,5 @@
 import "../home/Homepage.css";
+import "./portal.css";
 import AppHeader from "../../components/header/AppHeader";
 import Footer from "../../components/footer/footer";
 
@@ -22,14 +23,17 @@ function Portal() {
             checks current location for available providers OR forces everyone
             to use paypal and nuvei
           </p>
-          <table>
+          <table className="providersBox">
             <tbody>
               <tr>
                 <th>Available providers (Malaysia)</th>
               </tr>
               <tr>
                 <td
+                  className="providerEntry"
                   onClick={() => {
+                    /**We can make payment vendor into an interface like viewForm.js and
+                     * achieve vendor interface using URL manipulation eg /paymentVendor/paypal*/
                     navigate("/paymentVendor");
                   }}
                 >
@@ -38,6 +42,7 @@ function Portal() {
               </tr>
               <tr>
                 <td
+                  className="providerEntry"
                   onClick={() => {
                     navigate("/paymentVendor");
                   }}
@@ -47,6 +52,7 @@ function Portal() {
               </tr>
               <tr>
                 <td
+                  className="providerEntry"
                   onClick={() => {
                     navigate("/paymentVendor");
                   }}

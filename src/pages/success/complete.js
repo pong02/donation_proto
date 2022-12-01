@@ -1,6 +1,7 @@
 import "../home/Homepage.css";
 import AppHeader from "../../components/header/AppHeader";
 import Footer from "../../components/footer/footer";
+import { Button } from "@mui/material";
 
 import { useNavigate } from "react-router-dom";
 
@@ -21,7 +22,17 @@ function Complete() {
         {/* Displaying current balance & reload button */}
         <div className="homeBox">
           <h1>Thank you for your kind contribution!</h1>
-          <button onClick={navigate("/donateHome")}>Back</button>
+          <Button
+            onClick={() => {
+              navigate("/donateHome", {
+                state: {
+                  //pass parameters here?
+                },
+              });
+            }}
+          >
+            Back
+          </Button>
         </div>
       </div>
 

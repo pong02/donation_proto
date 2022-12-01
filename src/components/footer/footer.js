@@ -6,7 +6,7 @@ function Footer() {
       <footer className="fusion-footer-widget-area fusion-widget-area fusion-footer-widget-area-center">
         <div className="fusion-row" id="topFooter">
           <div className="fusion-columns fusion-columns-3 fusion-widget-area">
-            <div className="fusion-column col-lg-4 col-md-4 col-sm-4 fusion-has-widgets">
+            <div className="fusion-column col-lg-4 col-md-4 col-sm-4 fusion-has-widgets footerSectionBox">
               <section
                 id="text-8"
                 className="fusion-footer-widget-column widget widget_text flexchild"
@@ -57,7 +57,7 @@ function Footer() {
                 <div className="clearDiv"></div>
               </section>
             </div>
-            <div className="fusion-column col-lg-4 col-md-4 col-sm-4 fusion-has-widgets">
+            <div className="fusion-column col-lg-4 col-md-4 col-sm-4 fusion-has-widgets footerSectionBox">
               <section
                 id="text-12"
                 className="fusion-footer-widget-column widget widget_text"
@@ -156,7 +156,7 @@ function Footer() {
                 <div className="clearDiv"></div>
               </section>
             </div>
-            <div className="fusion-column fusion-column-last col-lg-4 col-md-4 col-sm-4 fusion-has-widgets">
+            <div className="fusion-column fusion-column-last col-lg-4 col-md-4 col-sm-4 fusion-has-widgets footerSectionBox">
               <section
                 id="contact_info-widget-2"
                 className="fusion-footer-widget-column widget contact_info"
